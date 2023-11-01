@@ -8,10 +8,7 @@ var createHelloWorld = function() {
     }
 };
 
-const hlw = createHelloWorld();
-const message = hlw();
-
-console.log(message);
+createHelloWorld()();
 /**
  * const f = createHelloWorld();
  * f(); // "Hello World"
